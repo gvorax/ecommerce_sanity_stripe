@@ -79,7 +79,7 @@ const Card = () => {
                 <div className="item-desc">
                   <div className="flex top">
                     <h5>{cardItem.name}</h5>
-                    <h4>{cardItem.price}</h4>
+                    <h4>${cardItem.price}</h4>
                   </div>
 
                   <div className="flex bottom">
